@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    font-family: 'Graduate', cursive;
+    color:  #3d3d3f;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.699);
+    font-size: 5.5rem;
+    text-align: center;
+}
+
+.container{
+    margin: 100px auto;
+    width: 450px;
+    position: relative;
+}
+
+.bulls{
+    position: absolute;
+    left: 49%;
+    transform: translate(-50%);
+}
+
+.bg_white{
+    background-color: white;
+}
+
+.bg_red{
+    background-color: #e61f1e;
+}
+
+.bg_darkgrey{
+    background-color: #3d3d3f;
+}
+
+.container .row{
+    height: 12.5px;
+}
+
+.container .row .col-4 > .col-1{
+    height: 100%;
+    border-radius: 50%;
+}
+
+.container .row .col-4{
+    height: 100%;
+}
